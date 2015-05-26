@@ -1,5 +1,5 @@
 #!/bin/bash
 
-/app/bin/build
+${0%/*}/build
 node index.js
 
